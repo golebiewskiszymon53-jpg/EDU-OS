@@ -53,7 +53,7 @@ Otwartoźródłowy system operacyjny dla szkół. Skupia się na prostocie, bezp
 
 ## Licencja
 
-- Projekt jest dostępny na licencji open source (dodaj nazwę licencji, np. MIT, GPL-3.0).
+- Projekt jest dostępny na licencji open source GPL-3.0.
 - Zobacz plik `LICENSE` w repozytorium.
 
 ## Wkład w projekt
