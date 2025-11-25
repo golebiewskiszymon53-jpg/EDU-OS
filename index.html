@@ -35,15 +35,18 @@
     <section class="hero surface-elev-1">
       <div class="hero-content">
         <h1>EDU OS — otwartoźródłowy system dla szkół</h1>
-        <p> EDU-OS jest szybkim łatwym systemem dla szkół z słabym i mocnym sprzętem.Baza: Debian Testing + Ubuntu. Cykl wydań co 2–3 lata.</p>
+        <p> EDU-OS jest szybkim łatwym systemem dla szkół z słabym i mocnym sprzętem.Baza: Debian.</p>
         <div class="cta-row">
           <button class="btn primary" data-ripple onclick="selectVersion('lite')">
 <span class="material-icons-round">download</span> Pobierz EDU OS Lite
           </button>
-          <button class="btn secondary" data-ripple onclick="selectVersion('full')">
-            <span class="material-icons-round">download</span> Pobierz EDU OS Pełna
+                   <button class="btn primary" data-ripple onclick="selectVersion('lite')">
+<span class="material-icons-round">download</span> Pobierz EDU OS Cinnamon.
           </button>
-          <a class="btn tonal" data-ripple href="https://github.com/eduos" target="_blank">
+          <button class="btn secondary" data-ripple onclick="selectVersion('full')">
+            <span class="material-icons-round">download</span> Pobierz Kde Plasma.
+          </button>
+          <a class="btn tonal" data-ripple href="https://github.com/golebiewskiszymon53-jpg/EDU-OS" target="_blank">
             <span class="material-icons-round">code</span> Kod źródłowy (GitHub)
           </a>
         </div>
@@ -72,29 +75,26 @@
             <h3>EDU OS Lite</h3>
           </div>
           <ul class="list">
-            <li><strong>Środowisko:</strong> XFCE / LXQt</li>
+            <li><strong>Środowisko:</strong>LXQt</li>
             <li><strong>Wymagania:</strong> Celeron N3350, 2 GB RAM, 32 GB dysku</li>
             <li><strong>Grafika:</strong> OpenGL 2.0+</li>
-            <li><strong>Zastosowanie:</strong> Starsze komputery, szkoły wiejskie</li>
+            <li><strong>Zastosowanie:</strong> Starsze lub słabsze komputery</li>
           </ul>
           <button class="btn primary full-width" data-ripple onclick="selectVersion('lite')">
             <span class="material-icons-round">check_circle</span> Wybierz Lite
           </button>
         </article>
-
-        <article class="card selectable" id="card-full" data-version="full" tabindex="0">
-          <div class="card-header">
-            <span class="material-icons-round">dark_mode</span>
-            <h3>EDU OS Pełna</h3>
+              <span class="material-icons-round">light_mode</span>
+            <h3>EDU OS standard Cinnamon</h3>
           </div>
           <ul class="list">
-            <li><strong>Środowisko:</strong> KDE Plasma / Cinnamon</li>
-            <li><strong>Wymagania:</strong> i3 6–8 gen / Celeron N4020/N4100, 4 GB RAM, 64 GB dysku</li>
-            <li><strong>Zalecenia:</strong> Vulkan 1.3, SSD, 8 GB RAM</li>
-            <li><strong>Zastosowanie:</strong> Nowoczesne pracownie</li>
+            <li><strong>Środowisko:</strong>Cinnamon</li>
+            <li><strong>Wymagania:</strong> i5 2-4 generacja/Celeron N4020, 4 GB RAM, 64 GB dysku</li>
+            <li><strong>Grafika:</strong> OpenGL 2.0+</li>
+            <li><strong>Zastosowanie:</strong>Dla większości komputerów szkolnych</li>
           </ul>
-          <button class="btn primary full-width" data-ripple onclick="selectVersion('full')">
-            <span class="material-icons-round">check_circle</span> Wybierz Pełna
+          <button class="btn primary full-width" data-ripple onclick="selectVersion('lite')">
+            <span class="material-icons-round">check_circle</span> Wybierz standard Cinnamon
           </button>
         </article>
       </div>
@@ -154,7 +154,7 @@
         <span class="material-icons-round">info</span> O EDU OS
       </div>
       <div class="dialog-content">
-        EDU OS — darmowy, bezpieczny system dla szkół. Wersje: Lite i Pełna. Nowe wydania wraz z Ubuntu/Debianem.
+        EDU OS — darmowy, bezpieczny system dla szkół. Wersje: Lite i Pełna. Nowe wydania wraz z Debianem.
       </div>
       <div class="dialog-actions">
         <button class="btn secondary" data-ripple id="closeDialog">
@@ -178,7 +178,7 @@
   <footer class="footer surface-elev-1">
     <div class="footer-content">
       <span class="material-icons-round">copyright</span>
-      <span>EDU OS — open source, 2–3 letni cykl wydań. Zrobione z myślą o szkołach.</span>
+      <span>EDU OS — open source,  Zrobione z myślą o szkołach.</span>
     </div>
   </footer>
 
