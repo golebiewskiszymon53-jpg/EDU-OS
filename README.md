@@ -1,6 +1,7 @@
 # EDU-OS
 
-Otwartoźródłowy system operacyjny dla szkół. Skupia się na prostocie, bezpieczeństwie i dostępności narzędzi edukacyjnych. Projekt wykorzystuje bazę Debian Testing oraz Ubuntu. Nowe główne wersje pojawiają się w cyklu 2–3 lat, zsynchronizowane z wydaniami tych dystrybucji.
+Otwartoźródłowy system operacyjny dla szkół. Skupia się na prostocie, bezpieczeństwie i dostępności narzędzi edukacyjnych. Projekt wykorzystuje bazę dystrybucji Debian. Nowe 
+zsynchronizowane z wydaniami tych dystrybucji.
 
 ## Najważniejsze cechy
 
